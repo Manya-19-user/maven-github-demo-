@@ -1,0 +1,8 @@
+
+services:
+  maven-github-demo:
+    build: .
+    image: your-dockerhub-username/maven-github-demo:latest
+    container_name: maven-github-demo
+    ports:
+      - "8080:8080"
